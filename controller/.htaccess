@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule "^([a-zA-Z]+).html$" "index.php?act=$1"
+RewriteRule "^product&idcatalog=([0-9])$" "index.php?act=product&idcatalog=$1"
+#RewriteRule "^productdetail&idcatalog=([0-9])$" "index.php?act=productdetail&idcatalog=$1"
+RewriteRule "^cart=([a-zA-Z]+).html$" "index.php?act=cart&action=$1"
+RewriteRule "^cart=delete&id=([0-9])$" "index.php?act=cart&action=delete&id=$1"
