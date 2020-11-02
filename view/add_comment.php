@@ -3,7 +3,7 @@
 //add_comment.php
 
 
-include '../model/connect.php'
+include '../model/connect.php';
 
 if(empty($_POST["comment_name"]))
 {

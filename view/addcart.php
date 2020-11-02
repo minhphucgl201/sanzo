@@ -1,5 +1,5 @@
 <?php  
-	if (isset($_POST['id']) && ($_POST['num'])) {
-		echo $_POST['id']
+	if (isset($_POST['id']) && ($_POST['id'])) {
+		echo $_POST['id'];
 	}
 ?>
